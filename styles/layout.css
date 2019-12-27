@@ -1,3 +1,23 @@
+
+@media only screen and (max-width:800px) {
+    /* desktop */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* mobile */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+
+  /* div colors */
+
 #a {
     height:75px;
     width: 480px;
@@ -55,3 +75,7 @@
     border:solid black 1px;
     overflow: auto;
 }
+
+
+    
+
